@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+WARNING: Too many words specified in data file ../../../../../../../../func/obj/inst_ram.mif
+==============================================================
+Test begin!
+--------------------------------------------------------------
+[   2077 ns] Error!!!
+    reference: PC = 0x1c000004, wb_rf_wnum = 0x0c, wb_rf_wdata = 0xffffffff
+    mycpu    : PC = 0x1c000000, wb_rf_wnum = 0x0c, wb_rf_wdata = 0xffffffff
+--------------------------------------------------------------
+$finish called at time : 2117 ns : File "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/soc_verify/soc_dram/testbench/mycpu_tb.v" Line 168

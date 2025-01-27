@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/gettrace/gettrace.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/gettrace/src/BRIDGE/bridge_1x2.v,1728436967,verilog,,C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/gettrace/src/CONFREG/confreg.v,,bridge_1x2,,,,,,,,
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/gettrace/src/CONFREG/confreg.v,1728436967,verilog,,C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/gettrace/src/soc_lite_top.v,,confreg,,,,,,,,
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/gettrace/src/myCPU/SimpleLACoreWrapRAM.v,1728436967,verilog,,C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/gettrace/src/BRIDGE/bridge_1x2.v,,SimpleLACore;SimpleLACoreWrapRAM,,,,,,,,
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/gettrace/src/soc_lite_top.v,1728436967,verilog,,C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/gettrace/src/tb_top.v,,soc_lite_top,,,,,,,,
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/gettrace/src/tb_top.v,1728436968,verilog,,,,tb_top,,,,,,,,

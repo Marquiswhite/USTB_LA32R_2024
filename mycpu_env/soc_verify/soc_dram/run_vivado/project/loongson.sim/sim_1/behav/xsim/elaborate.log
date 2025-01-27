@@ -1,0 +1,17 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'inst_sram_we' [C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/soc_verify/soc_dram/rtl/soc_lite_top.v:145]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'data_sram_we' [C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/soc_verify/soc_dram/rtl/soc_lite_top.v:150]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 38 for port 'ws_to_rf_bus' [C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/myCPU/mycpu_top.v:64]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 38 for port 'ws_to_rf_bus' [C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/myCPU/mycpu_top.v:100]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 15 for port 'a' [C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/soc_verify/soc_dram/rtl/soc_lite_top.v:166]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 15 for port 'a' [C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/soc_verify/soc_dram/rtl/soc_lite_top.v:198]
+WARNING: [VRFC 10-3129] assignment to input 'd' [C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/soc_verify/soc_dram/testbench/async_ram.v:58]
+WARNING: [VRFC 10-3129] assignment to input 'd' [C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/soc_verify/soc_dram/testbench/async_ram.v:83]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

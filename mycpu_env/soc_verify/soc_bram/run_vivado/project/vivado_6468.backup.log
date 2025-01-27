@@ -1,0 +1,1189 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Nov 29 07:40:22 2024
+# Process ID: 6468
+# Current directory: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6896 C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\run_vivado\project\loongson.xpr
+# Log file: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/vivado.log
+# Journal file: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project\vivado.jou
+# Running On: DESKTOP-KCALV2U, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 2, Host memory: 8494 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kd240_som/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram_1' generated file not found 'c:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.gen/sources_1/ip/inst_ram_1/inst_ram_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram_1' generated file not found 'c:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.gen/sources_1/ip/inst_ram_1/inst_ram_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram_1' generated file not found 'c:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.gen/sources_1/ip/inst_ram_1/inst_ram_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram_1' generated file not found 'c:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.gen/sources_1/ip/inst_ram_1/inst_ram_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram_1' generated file not found 'c:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.gen/sources_1/ip/inst_ram_1/inst_ram_1_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:40 ; elapsed = 00:00:20 . Memory (MB): peak = 1455.828 ; gain = 380.781
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/inst_ram_1.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/EXE_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/ID_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/IF_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/MEM_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/WB_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/BRIDGE/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.srcs/sources_1/new/regcsr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regcsr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/soc_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/tools.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_2_4
+INFO: [VRFC 10-311] analyzing module decoder_4_16
+INFO: [VRFC 10-311] analyzing module decoder_5_32
+INFO: [VRFC 10-311] analyzing module decoder_6_64
+INFO: [VRFC 10-311] analyzing module byte_write_enable_b
+INFO: [VRFC 10-311] analyzing module byte_write_enable_h
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v:237]
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1597.211 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L xbip_utils_v3_0_11 -L axi_utils_v2_0_7 -L xbip_pipe_v3_0_7 -L xbip_dsp48_wrapper_v3_0_5 -L xbip_dsp48_addsub_v3_0_7 -L xbip_bram18k_v3_0_7 -L mult_gen_v12_0_19 -L floating_point_v7_0_21 -L xbip_dsp48_mult_v3_0_7 -L xbip_dsp48_multadd_v3_0_7 -L div_gen_v5_1_20 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L xbip_utils_v3_0_11 -L axi_utils_v2_0_7 -L xbip_pipe_v3_0_7 -L xbip_dsp48_wrapper_v3_0_5 -L xbip_dsp48_addsub_v3_0_7 -L xbip_bram18k_v3_0_7 -L mult_gen_v12_0_19 -L floating_point_v7_0_21 -L xbip_dsp48_mult_v3_0_7 -L xbip_dsp48_multadd_v3_0_7 -L div_gen_v5_1_20 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_11.xbip_utils_v3_0_11_pkg
+Compiling package div_gen_v5_1_20.div_gen_v5_1_20_viv_comp
+Compiling package xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv_comp
+Compiling package axi_utils_v2_0_7.axi_utils_v2_0_7_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_7.global_util_pkg
+Compiling package axi_utils_v2_0_7.axi_utils_comps
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xbip_bram18k_v3_0_7.xbip_bram18k_v3_0_7_pkg
+Compiling package div_gen_v5_1_20.div_gen_pkg
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package div_gen_v5_1_20.pkg_addsub
+Compiling module xil_defaultlib.IF_stage
+Compiling module xil_defaultlib.decoder_6_64
+Compiling module xil_defaultlib.decoder_4_16
+Compiling module xil_defaultlib.decoder_2_4
+Compiling module xil_defaultlib.decoder_5_32
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.ID_stage
+Compiling architecture synth of entity div_gen_v5_1_20.c_twos_comp_viv [\c_twos_comp_viv(c_width=32,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_20.cmp2s_v [\cmp2s_v(c_bus_width=32,c_regist...]
+Compiling architecture synth of entity div_gen_v5_1_20.c_twos_comp_viv [\c_twos_comp_viv(c_width=32,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_20.cmp2s_v [\cmp2s_v(c_bus_width=32,c_ainit_...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity div_gen_v5_1_20.c_addsub_lut6 [\c_addsub_lut6(c_width=33,c_add_...]
+Compiling architecture synth of entity div_gen_v5_1_20.c_addsub_viv [\c_addsub_viv(c_a_width=33,c_b_w...]
+Compiling architecture virtex of entity div_gen_v5_1_20.addsubreg_v [\addsubreg_v(c_bus_width=33,c_ai...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture rtl of entity div_gen_v5_1_20.c_addsub_lut6 [\c_addsub_lut6(c_width=33,c_add_...]
+Compiling architecture synth of entity div_gen_v5_1_20.c_addsub_viv [\c_addsub_viv(c_a_width=33,c_b_w...]
+Compiling architecture virtex of entity div_gen_v5_1_20.addsubreg_v [\addsubreg_v(c_bus_width=33,c_ha...]
+Compiling architecture virtex of entity div_gen_v5_1_20.dividervdc_v [\dividervdc_v(bus_num=32,bus_div...]
+Compiling architecture synth of entity div_gen_v5_1_20.c_twos_comp_viv [\c_twos_comp_viv(c_width=33,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_20.cmp2s_v [\cmp2s_v(c_bus_width=33,c_regist...]
+Compiling architecture synth of entity div_gen_v5_1_20.bip_sdivider_synth [\bip_sdivider_synth(c_xdevicefam...]
+Compiling architecture synth of entity div_gen_v5_1_20.div_gen_synth [\div_gen_synth(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity div_gen_v5_1_20.div_gen_v5_1_20_viv [\div_gen_v5_1_20_viv(c_xdevicefa...]
+Compiling architecture xilinx of entity div_gen_v5_1_20.div_gen_v5_1_20 [\div_gen_v5_1_20(c_xdevicefamily...]
+Compiling architecture div_gen_signed_arch of entity xil_defaultlib.div_gen_signed [div_gen_signed_default]
+Compiling architecture virtex of entity div_gen_v5_1_20.dividervdc_v [\dividervdc_v(bus_num=32,bus_div...]
+Compiling architecture synth of entity div_gen_v5_1_20.bip_sdivider_synth [\bip_sdivider_synth(c_xdevicefam...]
+Compiling architecture synth of entity div_gen_v5_1_20.div_gen_synth [\div_gen_synth(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity div_gen_v5_1_20.div_gen_v5_1_20_viv [\div_gen_v5_1_20_viv(c_xdevicefa...]
+Compiling architecture xilinx of entity div_gen_v5_1_20.div_gen_v5_1_20 [\div_gen_v5_1_20(c_xdevicefamily...]
+Compiling architecture div_gen_unsigned_arch of entity xil_defaultlib.div_gen_unsigned [div_gen_unsigned_default]
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.byte_write_enable_b
+Compiling module xil_defaultlib.byte_write_enable_h
+Compiling module xil_defaultlib.EXE_stage
+Compiling module xil_defaultlib.MEM_stage
+Compiling module xil_defaultlib.regcsr
+Compiling module xil_defaultlib.WB_stage
+Compiling module xil_defaultlib.mycpu_top
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.confreg(SIMULATION=1'b1)
+Compiling module xil_defaultlib.soc_lite_top(SIMULATION=1'b1)
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+run_program: Time (s): cpu = 00:00:05 ; elapsed = 00:00:36 . Memory (MB): peak = 1597.211 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '36' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -view {C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/tb_top_behav1.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/tb_top_behav1.wcfg
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.inst_ram.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_top.soc_lite.data_ram.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1597.211 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 1597.211 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:32 ; elapsed = 00:01:04 . Memory (MB): peak = 1597.211 ; gain = 0.000
+run all
+==============================================================
+Test begin!
+----[  12115 ns] Number 8'd01 Functional Test Point PASS!!!
+        [  22000 ns] Test is running, debug_wb_pc = 0x1c04c1dc
+        [  32000 ns] Test is running, debug_wb_pc = 0x1c04d17c
+----[  36525 ns] Number 8'd02 Functional Test Point PASS!!!
+        [  42000 ns] Test is running, debug_wb_pc = 0x1c061cb8
+        [  52000 ns] Test is running, debug_wb_pc = 0x1c062c58
+----[  54915 ns] Number 8'd03 Functional Test Point PASS!!!
+        [  62000 ns] Test is running, debug_wb_pc = 0x1c0731ec
+        [  72000 ns] Test is running, debug_wb_pc = 0x1c07418c
+----[  79325 ns] Number 8'd04 Functional Test Point PASS!!!
+        [  82000 ns] Test is running, debug_wb_pc = 0x1c076900
+        [  92000 ns] Test is running, debug_wb_pc = 0x1c0778a0
+        [ 102000 ns] Test is running, debug_wb_pc = 0x1c078840
+----[ 103735 ns] Number 8'd05 Functional Test Point PASS!!!
+        [ 112000 ns] Test is running, debug_wb_pc = 0x1c07977c
+        [ 122000 ns] Test is running, debug_wb_pc = 0x1c07a71c
+----[ 128145 ns] Number 8'd06 Functional Test Point PASS!!!
+        [ 132000 ns] Test is running, debug_wb_pc = 0x1c07b658
+        [ 142000 ns] Test is running, debug_wb_pc = 0x1c07c5f8
+        [ 152000 ns] Test is running, debug_wb_pc = 0x1c07d598
+----[ 152555 ns] Number 8'd07 Functional Test Point PASS!!!
+        [ 162000 ns] Test is running, debug_wb_pc = 0x1c07e4d4
+        [ 172000 ns] Test is running, debug_wb_pc = 0x1c07f474
+----[ 176965 ns] Number 8'd08 Functional Test Point PASS!!!
+        [ 182000 ns] Test is running, debug_wb_pc = 0x1c0803b0
+        [ 192000 ns] Test is running, debug_wb_pc = 0x1c081350
+----[ 201375 ns] Number 8'd09 Functional Test Point PASS!!!
+        [ 202000 ns] Test is running, debug_wb_pc = 0x1c010824
+        [ 212000 ns] Test is running, debug_wb_pc = 0x1c0117c4
+        [ 222000 ns] Test is running, debug_wb_pc = 0x1c012764
+----[ 225785 ns] Number 8'd10 Functional Test Point PASS!!!
+        [ 232000 ns] Test is running, debug_wb_pc = 0x1c0136a0
+        [ 242000 ns] Test is running, debug_wb_pc = 0x1c014640
+----[ 244175 ns] Number 8'd11 Functional Test Point PASS!!!
+        [ 252000 ns] Test is running, debug_wb_pc = 0x1c01557c
+        [ 262000 ns] Test is running, debug_wb_pc = 0x1c01651c
+----[ 262565 ns] Number 8'd12 Functional Test Point PASS!!!
+        [ 272000 ns] Test is running, debug_wb_pc = 0x1c017458
+----[ 280955 ns] Number 8'd13 Functional Test Point PASS!!!
+        [ 282000 ns] Test is running, debug_wb_pc = 0x1c018394
+----[ 291525 ns] Number 8'd14 Functional Test Point PASS!!!
+        [ 292000 ns] Test is running, debug_wb_pc = 0x1c0192d0
+        [ 302000 ns] Test is running, debug_wb_pc = 0x1c01a270
+----[ 302895 ns] Number 8'd15 Functional Test Point PASS!!!
+        [ 312000 ns] Test is running, debug_wb_pc = 0x1c01b44c
+        [ 322000 ns] Test is running, debug_wb_pc = 0x1c01c6e8
+        [ 332000 ns] Test is running, debug_wb_pc = 0x1c01d6b4
+        [ 342000 ns] Test is running, debug_wb_pc = 0x1c01e5c4
+        [ 352000 ns] Test is running, debug_wb_pc = 0x1c01f568
+        [ 362000 ns] Test is running, debug_wb_pc = 0x1c0207fc
+----[ 371485 ns] Number 8'd16 Functional Test Point PASS!!!
+        [ 372000 ns] Test is running, debug_wb_pc = 0x1c0219f4
+        [ 382000 ns] Test is running, debug_wb_pc = 0x1c022908
+        [ 392000 ns] Test is running, debug_wb_pc = 0x1c023800
+        [ 402000 ns] Test is running, debug_wb_pc = 0x1c024888
+        [ 412000 ns] Test is running, debug_wb_pc = 0x1c025b28
+        [ 422000 ns] Test is running, debug_wb_pc = 0x1c026ca4
+        [ 432000 ns] Test is running, debug_wb_pc = 0x1c027b9c
+        [ 442000 ns] Test is running, debug_wb_pc = 0x1c028ab0
+----[ 445025 ns] Number 8'd17 Functional Test Point PASS!!!
+        [ 452000 ns] Test is running, debug_wb_pc = 0x1c02996c
+        [ 462000 ns] Test is running, debug_wb_pc = 0x1c02a874
+        [ 472000 ns] Test is running, debug_wb_pc = 0x1c02b798
+        [ 482000 ns] Test is running, debug_wb_pc = 0x1c02c6a0
+        [ 492000 ns] Test is running, debug_wb_pc = 0x1c02d5c4
+        [ 502000 ns] Test is running, debug_wb_pc = 0x1c02e4cc
+----[ 503355 ns] Number 8'd18 Functional Test Point PASS!!!
+        [ 512000 ns] Test is running, debug_wb_pc = 0x1c02f314
+        [ 522000 ns] Test is running, debug_wb_pc = 0x1c03018c
+        [ 532000 ns] Test is running, debug_wb_pc = 0x1c03101c
+        [ 542000 ns] Test is running, debug_wb_pc = 0x1c031e9c
+        [ 552000 ns] Test is running, debug_wb_pc = 0x1c032d1c
+----[ 559685 ns] Number 8'd19 Functional Test Point PASS!!!
+        [ 562000 ns] Test is running, debug_wb_pc = 0x1c034ab4
+        [ 572000 ns] Test is running, debug_wb_pc = 0x1c03599c
+        [ 582000 ns] Test is running, debug_wb_pc = 0x1c036888
+        [ 592000 ns] Test is running, debug_wb_pc = 0x1c037768
+        [ 602000 ns] Test is running, debug_wb_pc = 0x1c03865c
+----[ 604015 ns] Number 8'd20 Functional Test Point PASS!!!
+        [ 612000 ns] Test is running, debug_wb_pc = 0x1c039274
+        [ 622000 ns] Test is running, debug_wb_pc = 0x1c039e34
+        [ 632000 ns] Test is running, debug_wb_pc = 0x1c03a9d8
+----[ 640465 ns] Number 8'd21 Functional Test Point PASS!!!
+        [ 642000 ns] Test is running, debug_wb_pc = 0x1c03b5d8
+        [ 652000 ns] Test is running, debug_wb_pc = 0x1c03c578
+----[ 658855 ns] Number 8'd22 Functional Test Point PASS!!!
+        [ 662000 ns] Test is running, debug_wb_pc = 0x1c03d4b4
+        [ 672000 ns] Test is running, debug_wb_pc = 0x1c03e454
+----[ 677245 ns] Number 8'd23 Functional Test Point PASS!!!
+        [ 682000 ns] Test is running, debug_wb_pc = 0x1c03f390
+        [ 692000 ns] Test is running, debug_wb_pc = 0x1c040330
+----[ 695635 ns] Number 8'd24 Functional Test Point PASS!!!
+        [ 702000 ns] Test is running, debug_wb_pc = 0x1c04126c
+        [ 712000 ns] Test is running, debug_wb_pc = 0x1c04220c
+----[ 714025 ns] Number 8'd25 Functional Test Point PASS!!!
+        [ 722000 ns] Test is running, debug_wb_pc = 0x1c043148
+        [ 732000 ns] Test is running, debug_wb_pc = 0x1c0440e8
+----[ 732415 ns] Number 8'd26 Functional Test Point PASS!!!
+        [ 742000 ns] Test is running, debug_wb_pc = 0x1c045024
+        [ 752000 ns] Test is running, debug_wb_pc = 0x1c045fc4
+----[ 756825 ns] Number 8'd27 Functional Test Point PASS!!!
+        [ 762000 ns] Test is running, debug_wb_pc = 0x1c046f00
+        [ 772000 ns] Test is running, debug_wb_pc = 0x1c047ea0
+----[ 781235 ns] Number 8'd28 Functional Test Point PASS!!!
+        [ 782000 ns] Test is running, debug_wb_pc = 0x1c048ddc
+        [ 792000 ns] Test is running, debug_wb_pc = 0x1c049d7c
+        [ 802000 ns] Test is running, debug_wb_pc = 0x1c04ad1c
+----[ 805645 ns] Number 8'd29 Functional Test Point PASS!!!
+        [ 812000 ns] Test is running, debug_wb_pc = 0x1c04da34
+        [ 822000 ns] Test is running, debug_wb_pc = 0x1c04dcb8
+        [ 832000 ns] Test is running, debug_wb_pc = 0x1c04df3c
+        [ 842000 ns] Test is running, debug_wb_pc = 0x1c04e1bc
+        [ 852000 ns] Test is running, debug_wb_pc = 0x1c04e45c
+----[ 858395 ns] Number 8'd30 Functional Test Point PASS!!!
+        [ 862000 ns] Test is running, debug_wb_pc = 0x1c04e6f4
+        [ 872000 ns] Test is running, debug_wb_pc = 0x1c04e994
+        [ 882000 ns] Test is running, debug_wb_pc = 0x1c04ec34
+        [ 892000 ns] Test is running, debug_wb_pc = 0x1c04eeec
+        [ 902000 ns] Test is running, debug_wb_pc = 0x1c04f188
+        [ 912000 ns] Test is running, debug_wb_pc = 0x1c04f444
+        [ 922000 ns] Test is running, debug_wb_pc = 0x1c04f6e4
+----[ 931615 ns] Number 8'd31 Functional Test Point PASS!!!
+        [ 932000 ns] Test is running, debug_wb_pc = 0x1c04f9a4
+        [ 942000 ns] Test is running, debug_wb_pc = 0x1c050944
+----[ 944065 ns] Number 8'd32 Functional Test Point PASS!!!
+        [ 952000 ns] Test is running, debug_wb_pc = 0x1c051880
+----[ 956655 ns] Number 8'd33 Functional Test Point PASS!!!
+        [ 962000 ns] Test is running, debug_wb_pc = 0x1c0527bc
+----[ 968085 ns] Number 8'd34 Functional Test Point PASS!!!
+        [ 972000 ns] Test is running, debug_wb_pc = 0x1c05325c
+        [ 982000 ns] Test is running, debug_wb_pc = 0x1c053528
+        [ 992000 ns] Test is running, debug_wb_pc = 0x1c0537fc
+        [1002000 ns] Test is running, debug_wb_pc = 0x1c053ad8
+        [1012000 ns] Test is running, debug_wb_pc = 0x1c053db8
+        [1022000 ns] Test is running, debug_wb_pc = 0x1c054078
+----[1022025 ns] Number 8'd35 Functional Test Point PASS!!!
+        [1032000 ns] Test is running, debug_wb_pc = 0x1c054380
+        [1042000 ns] Test is running, debug_wb_pc = 0x1c054664
+        [1052000 ns] Test is running, debug_wb_pc = 0x1c054964
+        [1062000 ns] Test is running, debug_wb_pc = 0x1c054c58
+        [1072000 ns] Test is running, debug_wb_pc = 0x1c054f58
+        [1082000 ns] Test is running, debug_wb_pc = 0x1c055258
+        [1092000 ns] Test is running, debug_wb_pc = 0x1c055548
+----[1096945 ns] Number 8'd36 Functional Test Point PASS!!!
+        [1102000 ns] Test is running, debug_wb_pc = 0x1c055efc
+        [1112000 ns] Test is running, debug_wb_pc = 0x1c056fc8
+        [1122000 ns] Test is running, debug_wb_pc = 0x1c0580e4
+        [1132000 ns] Test is running, debug_wb_pc = 0x1c0591b4
+----[1134135 ns] Number 8'd37 Functional Test Point PASS!!!
+        [1142000 ns] Test is running, debug_wb_pc = 0x1c05a2e4
+        [1152000 ns] Test is running, debug_wb_pc = 0x1c05b3e0
+        [1162000 ns] Test is running, debug_wb_pc = 0x1c05c4e4
+        [1172000 ns] Test is running, debug_wb_pc = 0x1c05d570
+----[1172005 ns] Number 8'd38 Functional Test Point PASS!!!
+        [1182000 ns] Test is running, debug_wb_pc = 0x1c05e62c
+        [1192000 ns] Test is running, debug_wb_pc = 0x1c05f6f0
+        [1202000 ns] Test is running, debug_wb_pc = 0x1c060798
+----[1209835 ns] Number 8'd39 Functional Test Point PASS!!!
+        [1212000 ns] Test is running, debug_wb_pc = 0x1c063420
+        [1222000 ns] Test is running, debug_wb_pc = 0x1c064528
+        [1232000 ns] Test is running, debug_wb_pc = 0x1c06560c
+        [1242000 ns] Test is running, debug_wb_pc = 0x1c066710
+----[1247775 ns] Number 8'd40 Functional Test Point PASS!!!
+        [1252000 ns] Test is running, debug_wb_pc = 0x1c0676d0
+        [1262000 ns] Test is running, debug_wb_pc = 0x1c068584
+----[1267995 ns] Number 8'd41 Functional Test Point PASS!!!
+        [1272000 ns] Test is running, debug_wb_pc = 0x1c0693dc
+        [1282000 ns] Test is running, debug_wb_pc = 0x1c06a294
+----[1282945 ns] Number 8'd42 Functional Test Point PASS!!!
+        [1292000 ns] Test is running, debug_wb_pc = 0x1c06b0ec
+        [1302000 ns] Test is running, debug_wb_pc = 0x1c06bfa0
+----[1304695 ns] Number 8'd43 Functional Test Point PASS!!!
+        [1312000 ns] Test is running, debug_wb_pc = 0x1c06cdf8
+        [1322000 ns] Test is running, debug_wb_pc = 0x1c06dcac
+----[1323725 ns] Number 8'd44 Functional Test Point PASS!!!
+        [1332000 ns] Test is running, debug_wb_pc = 0x1c06ea90
+        [1342000 ns] Test is running, debug_wb_pc = 0x1c06f8b8
+----[1347785 ns] Number 8'd45 Functional Test Point PASS!!!
+        [1352000 ns] Test is running, debug_wb_pc = 0x1c070688
+        [1362000 ns] Test is running, debug_wb_pc = 0x1c0714a8
+----[1369745 ns] Number 8'd46 Functional Test Point PASS!!!
+        [1372000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1382000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1392000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1402000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1412000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1422000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1432000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1442000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1452000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1462000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1472000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1482000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1492000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1502000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1512000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1522000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1532000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1542000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1552000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1562000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1572000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1582000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1592000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1602000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1612000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1622000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1632000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1642000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1652000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1662000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1672000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1682000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1692000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1702000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1712000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1722000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1732000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1742000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1752000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1762000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1772000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1782000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1792000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1802000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1812000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1822000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1832000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1842000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1852000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1862000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1872000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1882000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1892000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1902000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1912000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1922000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1932000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1942000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1952000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1962000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1972000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1982000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [1992000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2002000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2012000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2022000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2032000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2042000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2052000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2062000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2072000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2082000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2092000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2102000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2112000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2122000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2132000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2142000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2152000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2162000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2172000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2182000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2192000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2202000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2212000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2222000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2232000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2242000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2252000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2262000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2272000 ns] Test is running, debug_wb_pc = 0x1c00f078
+        [2282000 ns] Test is running, debug_wb_pc = 0x1c00f078
+run: Time (s): cpu = 00:04:06 ; elapsed = 00:09:19 . Memory (MB): peak = 1617.438 ; gain = 20.227
+relaunch_sim
+INFO: xsimkernel Simulation Memory Usage: 33524 KB (Peak: 33524 KB), Simulation CPU Usage: 545640 ms
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2023.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim/inst_ram_1.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/EXE_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/ID_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/IF_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/MEM_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/WB_stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/BRIDGE/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.srcs/sources_1/new/regcsr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regcsr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/soc_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/myCPU/tools.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_2_4
+INFO: [VRFC 10-311] analyzing module decoder_4_16
+INFO: [VRFC 10-311] analyzing module decoder_5_32
+INFO: [VRFC 10-311] analyzing module decoder_6_64
+INFO: [VRFC 10-311] analyzing module byte_write_enable_b
+INFO: [VRFC 10-311] analyzing module byte_write_enable_h
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v:237]
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1830.004 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1830.004 ; gain = 0.000
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L xbip_utils_v3_0_11 -L axi_utils_v2_0_7 -L xbip_pipe_v3_0_7 -L xbip_dsp48_wrapper_v3_0_5 -L xbip_dsp48_addsub_v3_0_7 -L xbip_bram18k_v3_0_7 -L mult_gen_v12_0_19 -L floating_point_v7_0_21 -L xbip_dsp48_mult_v3_0_7 -L xbip_dsp48_multadd_v3_0_7 -L div_gen_v5_1_20 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_7 -L xbip_utils_v3_0_11 -L axi_utils_v2_0_7 -L xbip_pipe_v3_0_7 -L xbip_dsp48_wrapper_v3_0_5 -L xbip_dsp48_addsub_v3_0_7 -L xbip_bram18k_v3_0_7 -L mult_gen_v12_0_19 -L floating_point_v7_0_21 -L xbip_dsp48_mult_v3_0_7 -L xbip_dsp48_multadd_v3_0_7 -L div_gen_v5_1_20 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_11.xbip_utils_v3_0_11_pkg
+Compiling package div_gen_v5_1_20.div_gen_v5_1_20_viv_comp
+Compiling package xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv_comp
+Compiling package axi_utils_v2_0_7.axi_utils_v2_0_7_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_7.global_util_pkg
+Compiling package axi_utils_v2_0_7.axi_utils_comps
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xbip_bram18k_v3_0_7.xbip_bram18k_v3_0_7_pkg
+Compiling package div_gen_v5_1_20.div_gen_pkg
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package div_gen_v5_1_20.pkg_addsub
+Compiling module xil_defaultlib.IF_stage
+Compiling module xil_defaultlib.decoder_6_64
+Compiling module xil_defaultlib.decoder_4_16
+Compiling module xil_defaultlib.decoder_2_4
+Compiling module xil_defaultlib.decoder_5_32
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.ID_stage
+Compiling architecture synth of entity div_gen_v5_1_20.c_twos_comp_viv [\c_twos_comp_viv(c_width=32,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_20.cmp2s_v [\cmp2s_v(c_bus_width=32,c_regist...]
+Compiling architecture synth of entity div_gen_v5_1_20.c_twos_comp_viv [\c_twos_comp_viv(c_width=32,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_20.cmp2s_v [\cmp2s_v(c_bus_width=32,c_ainit_...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity div_gen_v5_1_20.c_addsub_lut6 [\c_addsub_lut6(c_width=33,c_add_...]
+Compiling architecture synth of entity div_gen_v5_1_20.c_addsub_viv [\c_addsub_viv(c_a_width=33,c_b_w...]
+Compiling architecture virtex of entity div_gen_v5_1_20.addsubreg_v [\addsubreg_v(c_bus_width=33,c_ai...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture rtl of entity div_gen_v5_1_20.c_addsub_lut6 [\c_addsub_lut6(c_width=33,c_add_...]
+Compiling architecture synth of entity div_gen_v5_1_20.c_addsub_viv [\c_addsub_viv(c_a_width=33,c_b_w...]
+Compiling architecture virtex of entity div_gen_v5_1_20.addsubreg_v [\addsubreg_v(c_bus_width=33,c_ha...]
+Compiling architecture virtex of entity div_gen_v5_1_20.dividervdc_v [\dividervdc_v(bus_num=32,bus_div...]
+Compiling architecture synth of entity div_gen_v5_1_20.c_twos_comp_viv [\c_twos_comp_viv(c_width=33,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_20.cmp2s_v [\cmp2s_v(c_bus_width=33,c_regist...]
+Compiling architecture synth of entity div_gen_v5_1_20.bip_sdivider_synth [\bip_sdivider_synth(c_xdevicefam...]
+Compiling architecture synth of entity div_gen_v5_1_20.div_gen_synth [\div_gen_synth(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity div_gen_v5_1_20.div_gen_v5_1_20_viv [\div_gen_v5_1_20_viv(c_xdevicefa...]
+Compiling architecture xilinx of entity div_gen_v5_1_20.div_gen_v5_1_20 [\div_gen_v5_1_20(c_xdevicefamily...]
+Compiling architecture div_gen_signed_arch of entity xil_defaultlib.div_gen_signed [div_gen_signed_default]
+Compiling architecture virtex of entity div_gen_v5_1_20.dividervdc_v [\dividervdc_v(bus_num=32,bus_div...]
+Compiling architecture synth of entity div_gen_v5_1_20.bip_sdivider_synth [\bip_sdivider_synth(c_xdevicefam...]
+Compiling architecture synth of entity div_gen_v5_1_20.div_gen_synth [\div_gen_synth(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_7.xbip_pipe_v3_0_7_viv [\xbip_pipe_v3_0_7_viv(c_latency=...]
+Compiling architecture synth of entity div_gen_v5_1_20.div_gen_v5_1_20_viv [\div_gen_v5_1_20_viv(c_xdevicefa...]
+Compiling architecture xilinx of entity div_gen_v5_1_20.div_gen_v5_1_20 [\div_gen_v5_1_20(c_xdevicefamily...]
+Compiling architecture div_gen_unsigned_arch of entity xil_defaultlib.div_gen_unsigned [div_gen_unsigned_default]
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.byte_write_enable_b
+Compiling module xil_defaultlib.byte_write_enable_h
+Compiling module xil_defaultlib.EXE_stage
+Compiling module xil_defaultlib.MEM_stage
+Compiling module xil_defaultlib.regcsr
+Compiling module xil_defaultlib.WB_stage
+Compiling module xil_defaultlib.mycpu_top
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_output_stage(...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_7.blk_mem_gen_v8_4_7(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.confreg(SIMULATION=1'b1)
+Compiling module xil_defaultlib.soc_lite_top(SIMULATION=1'b1)
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:31 . Memory (MB): peak = 1830.004 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '31' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:32 . Memory (MB): peak = 1830.004 ; gain = 0.000
+Time resolution is 1 ps
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.inst_ram.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_top.soc_lite.data_ram.inst.\native_mem_module.blk_mem_gen_v8_4_7_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1830.004 ; gain = 0.000
+relaunch_xsim_kernel: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1830.004 ; gain = 0.000
+relaunch_sim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:51 . Memory (MB): peak = 1830.004 ; gain = 0.000
+run all
+==============================================================
+Test begin!
+----[  12115 ns] Number 8'd01 Functional Test Point PASS!!!
+        [  22000 ns] Test is running, debug_wb_pc = 0x1c04c1dc
+        [  32000 ns] Test is running, debug_wb_pc = 0x1c04d17c
+----[  36525 ns] Number 8'd02 Functional Test Point PASS!!!
+        [  42000 ns] Test is running, debug_wb_pc = 0x1c061cb8
+        [  52000 ns] Test is running, debug_wb_pc = 0x1c062c58
+----[  54915 ns] Number 8'd03 Functional Test Point PASS!!!
+        [  62000 ns] Test is running, debug_wb_pc = 0x1c0731ec
+        [  72000 ns] Test is running, debug_wb_pc = 0x1c07418c
+----[  79325 ns] Number 8'd04 Functional Test Point PASS!!!
+        [  82000 ns] Test is running, debug_wb_pc = 0x1c076900
+        [  92000 ns] Test is running, debug_wb_pc = 0x1c0778a0
+        [ 102000 ns] Test is running, debug_wb_pc = 0x1c078840
+----[ 103735 ns] Number 8'd05 Functional Test Point PASS!!!
+        [ 112000 ns] Test is running, debug_wb_pc = 0x1c07977c
+        [ 122000 ns] Test is running, debug_wb_pc = 0x1c07a71c
+----[ 128145 ns] Number 8'd06 Functional Test Point PASS!!!
+        [ 132000 ns] Test is running, debug_wb_pc = 0x1c07b658
+        [ 142000 ns] Test is running, debug_wb_pc = 0x1c07c5f8
+        [ 152000 ns] Test is running, debug_wb_pc = 0x1c07d598
+----[ 152555 ns] Number 8'd07 Functional Test Point PASS!!!
+        [ 162000 ns] Test is running, debug_wb_pc = 0x1c07e4d4
+        [ 172000 ns] Test is running, debug_wb_pc = 0x1c07f474
+----[ 176965 ns] Number 8'd08 Functional Test Point PASS!!!
+        [ 182000 ns] Test is running, debug_wb_pc = 0x1c0803b0
+        [ 192000 ns] Test is running, debug_wb_pc = 0x1c081350
+----[ 201375 ns] Number 8'd09 Functional Test Point PASS!!!
+        [ 202000 ns] Test is running, debug_wb_pc = 0x1c010824
+        [ 212000 ns] Test is running, debug_wb_pc = 0x1c0117c4
+        [ 222000 ns] Test is running, debug_wb_pc = 0x1c012764
+----[ 225785 ns] Number 8'd10 Functional Test Point PASS!!!
+        [ 232000 ns] Test is running, debug_wb_pc = 0x1c0136a0
+        [ 242000 ns] Test is running, debug_wb_pc = 0x1c014640
+----[ 244175 ns] Number 8'd11 Functional Test Point PASS!!!
+        [ 252000 ns] Test is running, debug_wb_pc = 0x1c01557c
+        [ 262000 ns] Test is running, debug_wb_pc = 0x1c01651c
+----[ 262565 ns] Number 8'd12 Functional Test Point PASS!!!
+        [ 272000 ns] Test is running, debug_wb_pc = 0x1c017458
+----[ 280955 ns] Number 8'd13 Functional Test Point PASS!!!
+        [ 282000 ns] Test is running, debug_wb_pc = 0x1c018394
+----[ 291525 ns] Number 8'd14 Functional Test Point PASS!!!
+        [ 292000 ns] Test is running, debug_wb_pc = 0x1c0192d0
+        [ 302000 ns] Test is running, debug_wb_pc = 0x1c01a270
+----[ 302895 ns] Number 8'd15 Functional Test Point PASS!!!
+        [ 312000 ns] Test is running, debug_wb_pc = 0x1c01b44c
+        [ 322000 ns] Test is running, debug_wb_pc = 0x1c01c6e8
+        [ 332000 ns] Test is running, debug_wb_pc = 0x1c01d6b4
+        [ 342000 ns] Test is running, debug_wb_pc = 0x1c01e5c4
+        [ 352000 ns] Test is running, debug_wb_pc = 0x1c01f568
+        [ 362000 ns] Test is running, debug_wb_pc = 0x1c0207fc
+----[ 371485 ns] Number 8'd16 Functional Test Point PASS!!!
+        [ 372000 ns] Test is running, debug_wb_pc = 0x1c0219f4
+        [ 382000 ns] Test is running, debug_wb_pc = 0x1c022908
+        [ 392000 ns] Test is running, debug_wb_pc = 0x1c023800
+        [ 402000 ns] Test is running, debug_wb_pc = 0x1c024888
+        [ 412000 ns] Test is running, debug_wb_pc = 0x1c025b28
+        [ 422000 ns] Test is running, debug_wb_pc = 0x1c026ca4
+        [ 432000 ns] Test is running, debug_wb_pc = 0x1c027b9c
+        [ 442000 ns] Test is running, debug_wb_pc = 0x1c028ab0
+----[ 445025 ns] Number 8'd17 Functional Test Point PASS!!!
+        [ 452000 ns] Test is running, debug_wb_pc = 0x1c02996c
+        [ 462000 ns] Test is running, debug_wb_pc = 0x1c02a874
+        [ 472000 ns] Test is running, debug_wb_pc = 0x1c02b798
+        [ 482000 ns] Test is running, debug_wb_pc = 0x1c02c6a0
+        [ 492000 ns] Test is running, debug_wb_pc = 0x1c02d5c4
+        [ 502000 ns] Test is running, debug_wb_pc = 0x1c02e4cc
+----[ 503355 ns] Number 8'd18 Functional Test Point PASS!!!
+        [ 512000 ns] Test is running, debug_wb_pc = 0x1c02f314
+        [ 522000 ns] Test is running, debug_wb_pc = 0x1c03018c
+        [ 532000 ns] Test is running, debug_wb_pc = 0x1c03101c
+        [ 542000 ns] Test is running, debug_wb_pc = 0x1c031e9c
+        [ 552000 ns] Test is running, debug_wb_pc = 0x1c032d1c
+----[ 559685 ns] Number 8'd19 Functional Test Point PASS!!!
+        [ 562000 ns] Test is running, debug_wb_pc = 0x1c034ab4
+        [ 572000 ns] Test is running, debug_wb_pc = 0x1c03599c
+        [ 582000 ns] Test is running, debug_wb_pc = 0x1c036888
+        [ 592000 ns] Test is running, debug_wb_pc = 0x1c037768
+        [ 602000 ns] Test is running, debug_wb_pc = 0x1c03865c
+----[ 604015 ns] Number 8'd20 Functional Test Point PASS!!!
+        [ 612000 ns] Test is running, debug_wb_pc = 0x1c039274
+        [ 622000 ns] Test is running, debug_wb_pc = 0x1c039e34
+        [ 632000 ns] Test is running, debug_wb_pc = 0x1c03a9d8
+----[ 640465 ns] Number 8'd21 Functional Test Point PASS!!!
+        [ 642000 ns] Test is running, debug_wb_pc = 0x1c03b5d8
+        [ 652000 ns] Test is running, debug_wb_pc = 0x1c03c578
+----[ 658855 ns] Number 8'd22 Functional Test Point PASS!!!
+        [ 662000 ns] Test is running, debug_wb_pc = 0x1c03d4b4
+        [ 672000 ns] Test is running, debug_wb_pc = 0x1c03e454
+----[ 677245 ns] Number 8'd23 Functional Test Point PASS!!!
+        [ 682000 ns] Test is running, debug_wb_pc = 0x1c03f390
+        [ 692000 ns] Test is running, debug_wb_pc = 0x1c040330
+----[ 695635 ns] Number 8'd24 Functional Test Point PASS!!!
+        [ 702000 ns] Test is running, debug_wb_pc = 0x1c04126c
+        [ 712000 ns] Test is running, debug_wb_pc = 0x1c04220c
+----[ 714025 ns] Number 8'd25 Functional Test Point PASS!!!
+        [ 722000 ns] Test is running, debug_wb_pc = 0x1c043148
+        [ 732000 ns] Test is running, debug_wb_pc = 0x1c0440e8
+----[ 732415 ns] Number 8'd26 Functional Test Point PASS!!!
+        [ 742000 ns] Test is running, debug_wb_pc = 0x1c045024
+        [ 752000 ns] Test is running, debug_wb_pc = 0x1c045fc4
+----[ 756825 ns] Number 8'd27 Functional Test Point PASS!!!
+        [ 762000 ns] Test is running, debug_wb_pc = 0x1c046f00
+        [ 772000 ns] Test is running, debug_wb_pc = 0x1c047ea0
+----[ 781235 ns] Number 8'd28 Functional Test Point PASS!!!
+        [ 782000 ns] Test is running, debug_wb_pc = 0x1c048ddc
+        [ 792000 ns] Test is running, debug_wb_pc = 0x1c049d7c
+        [ 802000 ns] Test is running, debug_wb_pc = 0x1c04ad1c
+----[ 805645 ns] Number 8'd29 Functional Test Point PASS!!!
+        [ 812000 ns] Test is running, debug_wb_pc = 0x1c04da34
+        [ 822000 ns] Test is running, debug_wb_pc = 0x1c04dcb8
+        [ 832000 ns] Test is running, debug_wb_pc = 0x1c04df3c
+        [ 842000 ns] Test is running, debug_wb_pc = 0x1c04e1bc
+        [ 852000 ns] Test is running, debug_wb_pc = 0x1c04e45c
+----[ 858395 ns] Number 8'd30 Functional Test Point PASS!!!
+        [ 862000 ns] Test is running, debug_wb_pc = 0x1c04e6f4
+        [ 872000 ns] Test is running, debug_wb_pc = 0x1c04e994
+        [ 882000 ns] Test is running, debug_wb_pc = 0x1c04ec34
+        [ 892000 ns] Test is running, debug_wb_pc = 0x1c04eeec
+        [ 902000 ns] Test is running, debug_wb_pc = 0x1c04f188
+        [ 912000 ns] Test is running, debug_wb_pc = 0x1c04f444
+        [ 922000 ns] Test is running, debug_wb_pc = 0x1c04f6e4
+----[ 931615 ns] Number 8'd31 Functional Test Point PASS!!!
+        [ 932000 ns] Test is running, debug_wb_pc = 0x1c04f9a4
+        [ 942000 ns] Test is running, debug_wb_pc = 0x1c050944
+----[ 944065 ns] Number 8'd32 Functional Test Point PASS!!!
+        [ 952000 ns] Test is running, debug_wb_pc = 0x1c051880
+----[ 956655 ns] Number 8'd33 Functional Test Point PASS!!!
+        [ 962000 ns] Test is running, debug_wb_pc = 0x1c0527bc
+----[ 968085 ns] Number 8'd34 Functional Test Point PASS!!!
+        [ 972000 ns] Test is running, debug_wb_pc = 0x1c05325c
+        [ 982000 ns] Test is running, debug_wb_pc = 0x1c053528
+        [ 992000 ns] Test is running, debug_wb_pc = 0x1c0537fc
+        [1002000 ns] Test is running, debug_wb_pc = 0x1c053ad8
+        [1012000 ns] Test is running, debug_wb_pc = 0x1c053db8
+        [1022000 ns] Test is running, debug_wb_pc = 0x1c054078
+----[1022025 ns] Number 8'd35 Functional Test Point PASS!!!
+        [1032000 ns] Test is running, debug_wb_pc = 0x1c054380
+        [1042000 ns] Test is running, debug_wb_pc = 0x1c054664
+        [1052000 ns] Test is running, debug_wb_pc = 0x1c054964
+        [1062000 ns] Test is running, debug_wb_pc = 0x1c054c58
+        [1072000 ns] Test is running, debug_wb_pc = 0x1c054f58
+        [1082000 ns] Test is running, debug_wb_pc = 0x1c055258
+        [1092000 ns] Test is running, debug_wb_pc = 0x1c055548
+----[1096945 ns] Number 8'd36 Functional Test Point PASS!!!
+        [1102000 ns] Test is running, debug_wb_pc = 0x1c055efc
+        [1112000 ns] Test is running, debug_wb_pc = 0x1c056fc8
+        [1122000 ns] Test is running, debug_wb_pc = 0x1c0580e4
+        [1132000 ns] Test is running, debug_wb_pc = 0x1c0591b4
+----[1134135 ns] Number 8'd37 Functional Test Point PASS!!!
+        [1142000 ns] Test is running, debug_wb_pc = 0x1c05a2e4
+        [1152000 ns] Test is running, debug_wb_pc = 0x1c05b3e0
+        [1162000 ns] Test is running, debug_wb_pc = 0x1c05c4e4
+        [1172000 ns] Test is running, debug_wb_pc = 0x1c05d570
+----[1172005 ns] Number 8'd38 Functional Test Point PASS!!!
+        [1182000 ns] Test is running, debug_wb_pc = 0x1c05e62c
+        [1192000 ns] Test is running, debug_wb_pc = 0x1c05f6f0
+        [1202000 ns] Test is running, debug_wb_pc = 0x1c060798
+----[1209835 ns] Number 8'd39 Functional Test Point PASS!!!
+        [1212000 ns] Test is running, debug_wb_pc = 0x1c063420
+        [1222000 ns] Test is running, debug_wb_pc = 0x1c064528
+        [1232000 ns] Test is running, debug_wb_pc = 0x1c06560c
+        [1242000 ns] Test is running, debug_wb_pc = 0x1c066710
+----[1247775 ns] Number 8'd40 Functional Test Point PASS!!!
+        [1252000 ns] Test is running, debug_wb_pc = 0x1c0676d0
+        [1262000 ns] Test is running, debug_wb_pc = 0x1c068584
+----[1267995 ns] Number 8'd41 Functional Test Point PASS!!!
+        [1272000 ns] Test is running, debug_wb_pc = 0x1c0693dc
+        [1282000 ns] Test is running, debug_wb_pc = 0x1c06a294
+----[1282945 ns] Number 8'd42 Functional Test Point PASS!!!
+        [1292000 ns] Test is running, debug_wb_pc = 0x1c06b0ec
+        [1302000 ns] Test is running, debug_wb_pc = 0x1c06bfa0
+----[1304695 ns] Number 8'd43 Functional Test Point PASS!!!
+        [1312000 ns] Test is running, debug_wb_pc = 0x1c06cdf8
+        [1322000 ns] Test is running, debug_wb_pc = 0x1c06dcac
+----[1323725 ns] Number 8'd44 Functional Test Point PASS!!!
+        [1332000 ns] Test is running, debug_wb_pc = 0x1c06ea90
+        [1342000 ns] Test is running, debug_wb_pc = 0x1c06f8b8
+----[1347785 ns] Number 8'd45 Functional Test Point PASS!!!
+        [1352000 ns] Test is running, debug_wb_pc = 0x1c070688
+        [1362000 ns] Test is running, debug_wb_pc = 0x1c0714a8
+----[1369745 ns] Number 8'd46 Functional Test Point PASS!!!
+        [1372000 ns] Test is running, debug_wb_pc = 0x1c0080b8
+----[1376365 ns] Number 8'd47 Functional Test Point PASS!!!
+        [1382000 ns] Test is running, debug_wb_pc = 0x1c072218
+----[1383325 ns] Number 8'd48 Functional Test Point PASS!!!
+        [1392000 ns] Test is running, debug_wb_pc = 0x1c072308
+        [1402000 ns] Test is running, debug_wb_pc = 0x1c072308
+        [1412000 ns] Test is running, debug_wb_pc = 0x1c072308
+        [1422000 ns] Test is running, debug_wb_pc = 0x1c072308
+        [1432000 ns] Test is running, debug_wb_pc = 0x1c072314
+        [1442000 ns] Test is running, debug_wb_pc = 0x1c072314
+        [1452000 ns] Test is running, debug_wb_pc = 0x1c072314
+        [1462000 ns] Test is running, debug_wb_pc = 0x1c07236c
+        [1472000 ns] Test is running, debug_wb_pc = 0x1c0723c0
+        [1482000 ns] Test is running, debug_wb_pc = 0x1c0723c0
+        [1492000 ns] Test is running, debug_wb_pc = 0x1c0723c0
+        [1502000 ns] Test is running, debug_wb_pc = 0x1c0723cc
+        [1512000 ns] Test is running, debug_wb_pc = 0x1c0723cc
+        [1522000 ns] Test is running, debug_wb_pc = 0x1c0723cc
+        [1532000 ns] Test is running, debug_wb_pc = 0x1c0723cc
+        [1542000 ns] Test is running, debug_wb_pc = 0x1c072474
+        [1552000 ns] Test is running, debug_wb_pc = 0x1c072474
+        [1562000 ns] Test is running, debug_wb_pc = 0x1c072474
+        [1572000 ns] Test is running, debug_wb_pc = 0x1c072474
+        [1582000 ns] Test is running, debug_wb_pc = 0x1c072480
+        [1592000 ns] Test is running, debug_wb_pc = 0x1c072480
+        [1602000 ns] Test is running, debug_wb_pc = 0x1c072480
+        [1612000 ns] Test is running, debug_wb_pc = 0x1c072480
+        [1622000 ns] Test is running, debug_wb_pc = 0x1c072500
+        [1632000 ns] Test is running, debug_wb_pc = 0x1c072500
+        [1642000 ns] Test is running, debug_wb_pc = 0x1c072500
+        [1652000 ns] Test is running, debug_wb_pc = 0x1c072500
+        [1662000 ns] Test is running, debug_wb_pc = 0x1c07250c
+        [1672000 ns] Test is running, debug_wb_pc = 0x1c07250c
+        [1682000 ns] Test is running, debug_wb_pc = 0x1c07250c
+        [1692000 ns] Test is running, debug_wb_pc = 0x1c07257c
+        [1702000 ns] Test is running, debug_wb_pc = 0x1c0725a4
+        [1712000 ns] Test is running, debug_wb_pc = 0x1c0725a4
+        [1722000 ns] Test is running, debug_wb_pc = 0x1c0725a4
+        [1732000 ns] Test is running, debug_wb_pc = 0x1c0725b0
+        [1742000 ns] Test is running, debug_wb_pc = 0x1c0725b0
+        [1752000 ns] Test is running, debug_wb_pc = 0x1c0725b0
+        [1762000 ns] Test is running, debug_wb_pc = 0x1c0725b0
+        [1772000 ns] Test is running, debug_wb_pc = 0x1c072630
+        [1782000 ns] Test is running, debug_wb_pc = 0x1c072630
+        [1792000 ns] Test is running, debug_wb_pc = 0x1c072630
+        [1802000 ns] Test is running, debug_wb_pc = 0x1c072630
+        [1812000 ns] Test is running, debug_wb_pc = 0x1c07263c
+        [1822000 ns] Test is running, debug_wb_pc = 0x1c07263c
+        [1832000 ns] Test is running, debug_wb_pc = 0x1c07263c
+        [1842000 ns] Test is running, debug_wb_pc = 0x1c008178
+        [1852000 ns] Test is running, debug_wb_pc = 0x1c0726c4
+        [1862000 ns] Test is running, debug_wb_pc = 0x1c0726c4
+        [1872000 ns] Test is running, debug_wb_pc = 0x1c0726c4
+        [1882000 ns] Test is running, debug_wb_pc = 0x1c0081b8
+        [1892000 ns] Test is running, debug_wb_pc = 0x1c0726d0
+        [1902000 ns] Test is running, debug_wb_pc = 0x1c0726d0
+        [1912000 ns] Test is running, debug_wb_pc = 0x1c0726d0
+        [1922000 ns] Test is running, debug_wb_pc = 0x1c072724
+----[1923675 ns] Number 8'd49 Functional Test Point PASS!!!
+--------------------------------------------------------------
+[1925487 ns] Error!!!
+    reference: PC = 0x1c008000, wb_rf_wnum = 0x0d, wb_rf_wdata = 0x001d0000
+    mycpu    : PC = 0x1c074d94, wb_rf_wnum = 0x1f, wb_rf_wdata = 0x00000000
+--------------------------------------------------------------
+$finish called at time : 1925527 ns : File "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/testbench/mycpu_tb.v" Line 169
+run: Time (s): cpu = 00:03:18 ; elapsed = 00:06:06 . Memory (MB): peak = 2061.461 ; gain = 231.457
+current_wave_config {tb_top_behav1.wcfg}
+tb_top_behav1.wcfg
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/rf_we}} 
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\myCPU\alu.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\testbench\mycpu_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/tb_top_behav1.wcfg}
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 33408 KB (Peak: 33408 KB), Simulation CPU Usage: 339296 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 29 08:17:36 2024...

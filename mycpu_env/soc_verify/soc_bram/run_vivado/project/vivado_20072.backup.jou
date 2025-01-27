@@ -1,0 +1,104 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Nov 28 22:36:44 2024
+# Process ID: 20072
+# Current directory: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15512 C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\run_vivado\project\loongson.xpr
+# Log file: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/vivado.log
+# Journal file: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project\vivado.jou
+# Running On: DESKTOP-KCALV2U, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 2, Host memory: 8494 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.xpr
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/inst_ram/inst_ram.xci]
+export_ip_user_files -of_objects [get_files C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/inst_ram/inst_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/rtl/xilinx_ip/inst_ram/inst_ram.xci] -directory C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.ip_user_files -ipstatic_source_dir C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.cache/compile_simlib/modelsim} {questa=C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.cache/compile_simlib/questa} {riviera=C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.cache/compile_simlib/riviera} {activehdl=C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+open_wave_config C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/tb_top_behav1.wcfg
+source tb_top.tcl
+run all
+relaunch_sim
+run all
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_IF_stage/fs_valid}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/ds_valid}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/es_valid}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_MEM_stage/ms_valid}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/fs_to_ds_valid}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_IF_stage/fs_ready_go}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_IF_stage/fs_br_taken}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/ws_csr_num}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/ws_csr_we}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/u_regcsr/csr_tval_rvalue}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/u_regcsr/csr_tcfg_en}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/u_regcsr/csr_tcfg_periodic}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/u_regcsr/csr_tcfg_initval}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/u_regcsr/tcfg_next_value}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/u_regcsr/timer_cnt}} 
+relaunch_sim
+run all
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/u_regcsr/csr_wvalue}} 
+relaunch_sim
+run all
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/ws_has_int}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_IF_stage/fs_allowin}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_IF_stage/ds_allowin}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/br_target}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/br_taken}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/inst_b}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/fs_to_ds_bus}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/fs_to_ds_bus_r}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/ds_allowin}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/fs_to_ds_bus}} {{/tb_top/soc_lite/cpu/u_ID_stage/fs_to_ds_bus_r}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/br_target}} 
+relaunch_sim
+run all
+relaunch_sim
+run all
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/es_ine}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/es_ertn_delay}} 
+relaunch_sim
+run all
+relaunch_sim
+run all
+run all
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/es_ine}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/ds_to_es_bus_r}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/load_op}} 
+save_wave_config {C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/tb_top_behav1.wcfg}
+close_sim

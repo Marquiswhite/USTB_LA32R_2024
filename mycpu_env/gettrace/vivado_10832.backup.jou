@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Nov 15 14:01:05 2024
+# Process ID: 10832
+# Current directory: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/gettrace
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12532 C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env\gettrace\gettrace.xpr
+# Log file: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/gettrace/vivado.log
+# Journal file: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/gettrace\vivado.jou
+# Running On: DESKTOP-KCALV2U, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 2, Host memory: 8494 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/gettrace/gettrace.xpr
+update_compile_order -fileset sources_1

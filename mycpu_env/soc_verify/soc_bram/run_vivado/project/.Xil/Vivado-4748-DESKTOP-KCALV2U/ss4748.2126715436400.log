@@ -1,0 +1,43 @@
+  [librdi_filemgmt.dll+0x342db5]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# An error report file with more information is saved as:
+# C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env\mycpu_env\soc_verify\soc_bram\run_vivado\project\hs_err_pid4748.log
+srcscan starts
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/EXE_stage.v(1): INFO: Compiling verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/mycpu_head.v" included at line 1. (VERI-9003)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/EXE_stage.v(1): INFO: back to file 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/EXE_stage.v' (VERI-2320)
+INFO: analyzing module EXE_stage (VERI-9002)
+C:/Users/G1503/AppData/Local/Temp/VivadoEditorAssist13047263572617445535.tmp(42): INFO: Compiling verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/mycpu_head.v" included at line 42. (VERI-9003)
+C:/Users/G1503/AppData/Local/Temp/VivadoEditorAssist13047263572617445535.tmp(42): INFO: back to file 'C:/Users/G1503/AppData/Local/Temp/VivadoEditorAssist13047263572617445535.tmp' (VERI-2320)
+INFO: analyzing module ID_stage (VERI-9002)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/IF_stage.v(24): INFO: Compiling verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/mycpu_head.v" included at line 24. (VERI-9003)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/IF_stage.v(24): INFO: back to file 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/IF_stage.v' (VERI-2320)
+INFO: analyzing module IF_stage (VERI-9002)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/MEM_stage.v(1): INFO: Compiling verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/mycpu_head.v" included at line 1. (VERI-9003)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/MEM_stage.v(1): INFO: back to file 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/MEM_stage.v' (VERI-2320)
+INFO: analyzing module MEM_stage (VERI-9002)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/WB_stage.v(21): INFO: Compiling verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/mycpu_head.v" included at line 21. (VERI-9003)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/WB_stage.v(21): INFO: back to file 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/WB_stage.v' (VERI-2320)
+INFO: analyzing module WB_stage (VERI-9002)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/WB_stage.v(154): INFO: undeclared symbol 'wb_ex', assumed default net type 'wire' (VERI-2561)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/WB_stage.v(159): INFO: undeclared symbol 'has_it', assumed default net type 'wire' (VERI-2561)
+INFO: analyzing module alu (VERI-9002)
+INFO: analyzing module bridge_1x2 (VERI-9002)
+INFO: analyzing module confreg (VERI-9002)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/mycpu_top.v(1): INFO: Compiling verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/mycpu_head.v" included at line 1. (VERI-9003)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/mycpu_top.v(1): INFO: back to file 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/mycpu_top.v' (VERI-2320)
+INFO: analyzing module mycpu_top (VERI-9002)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.srcs/sources_1/new/regcsr.v(21): INFO: Compiling verilog file "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/myCPU/mycpu_head.v" included at line 21. (VERI-9003)
+C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.srcs/sources_1/new/regcsr.v(21): INFO: back to file 'C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.srcs/sources_1/new/regcsr.v' (VERI-2320)
+INFO: analyzing module regcsr (VERI-9002)
+INFO: analyzing module regfile (VERI-9002)
+INFO: analyzing module decoder_2_4 (VERI-9002)
+INFO: analyzing module decoder_4_16 (VERI-9002)
+INFO: analyzing module decoder_5_32 (VERI-9002)
+INFO: analyzing module decoder_6_64 (VERI-9002)
+INFO: analyzing module byte_write_enable_b (VERI-9002)
+INFO: analyzing module byte_write_enable_h (VERI-9002)
+INFO: analyzing module soc_lite_top (VERI-9002)
+INFO: analyzing module mux_1 (VERI-9002)
+srcscan exits with return value 0

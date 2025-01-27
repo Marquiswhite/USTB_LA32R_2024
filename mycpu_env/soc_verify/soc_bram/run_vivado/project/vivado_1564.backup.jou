@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Nov 29 08:19:00 2024
+# Process ID: 1564
+# Current directory: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7928 C:\Users\G1503\Desktop\jizu\LA\LA\cdp_ede_local-master\mycpu_env_test8\mycpu_env\mycpu_env\soc_verify\soc_bram\run_vivado\project\loongson.xpr
+# Log file: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/vivado.log
+# Journal file: C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project\vivado.jou
+# Running On: DESKTOP-KCALV2U, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 2, Host memory: 8494 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/loongson.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/tb_top_behav1.wcfg
+source tb_top.tcl
+run all
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/rf_wdata}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/rf_waddr}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/ws_ale}} 
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/u_regcsr/csr_badv_rvalue}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/alu_result}} 
+relaunch_sim
+run all
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_WB_stage/ws_mem_addr}} 
+relaunch_sim
+run all
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_MEM_stage/ms_res_from_mem}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_MEM_stage/ms_alu_result}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/es_ale}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/inst_st_w}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/inst_st_b}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/inst_st_h}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/inst_ld_w}} {{/tb_top/soc_lite/cpu/u_ID_stage/inst_ld_b}} {{/tb_top/soc_lite/cpu/u_ID_stage/inst_ld_h}} {{/tb_top/soc_lite/cpu/u_ID_stage/inst_ld_bu}} {{/tb_top/soc_lite/cpu/u_ID_stage/inst_ld_hu}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/debug_wb_rf_we}} {{/tb_top/debug_wb_rf_wnum}} {{/tb_top/debug_wb_rf_wdata}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/debug_wb_rf_we}} {{/tb_top/debug_wb_rf_wnum}} {{/tb_top/debug_wb_rf_wdata}} {{/tb_top/ref_wb_pc}} {{/tb_top/ref_wb_rf_wnum}} {{/tb_top/ref_wb_rf_wdata}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/data_sram_wdata}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/data_sram_addr}} 
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/data_sram_we}} 
+relaunch_sim
+run all
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_EXE_stage/es_ex}} 
+relaunch_sim
+run all
+current_wave_config {tb_top_behav1.wcfg}
+add_wave {{/tb_top/soc_lite/cpu/u_ID_stage/inst_rdcntvl_w}} {{/tb_top/soc_lite/cpu/u_ID_stage/inst_rdcntvh_w}} {{/tb_top/soc_lite/cpu/u_ID_stage/inst_rdcntid_w}} 
+relaunch_sim
+run all
+save_wave_config {C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env_test8/mycpu_env/mycpu_env/soc_verify/soc_bram/run_vivado/project/tb_top_behav1.wcfg}
+close_sim

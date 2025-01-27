@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "C:/Users/G1503/Desktop/jizu/LA/LA/cdp_ede_local-master/mycpu_env/soc_verify/soc_dram/run_vivado/project/loongson.srcs/sources_1/new/mycpu_head.v" --include "../../../../loongson.srcs/sources_1/new" \
+"../../../../loongson.srcs/sources_1/new/EXE_stage.v" \
+"../../../../loongson.srcs/sources_1/new/ID_stage.v" \
+"../../../../loongson.srcs/sources_1/new/IF_stage.v" \
+"../../../../loongson.srcs/sources_1/new/MEM_stage.v" \
+"../../../../loongson.srcs/sources_1/new/WB_stage.v" \
+"../../../../../../../../myCPU/alu.v" \
+"../../../../../../testbench/async_ram.v" \
+"../../../../../../rtl/BRIDGE/bridge_1x2.v" \
+"../../../../../../rtl/CONFREG/confreg.v" \
+"../../../../../../../../myCPU/mycpu_top.v" \
+"../../../../../../../../myCPU/regfile.v" \
+"../../../../../../rtl/soc_lite_top.v" \
+"../../../../../../../../myCPU/tools.v" \
+"../../../../../../testbench/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
